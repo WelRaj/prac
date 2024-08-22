@@ -1,0 +1,161 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#container {
+    width: 1350px;
+    /*border: 2px red solid;*/
+    margin: 0px auto;
+}
+
+#header {
+    height: 100px;
+    padding: 10px 0px;
+}
+
+#logo {
+    float: left;
+}
+
+#logo h1 a {
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+    color: #d02d2d
+}
+
+#searchbox {
+    float: right;
+    background-color: rgba(59, 59, 226, 0.779);
+    width: 500px;
+    height: 50px;
+    padding: 20px 20px 0px 20px;
+    border: 1px white solid;
+    border-radius: 5px;
+
+}
+
+.text {
+    float: left;
+    width: 350px;
+    padding: 5px;
+    color: #514141;
+    font-weight: bold;
+    border: 1px #fff solid;
+    border-radius: 5px;
+    background: #fff url(../images/search.png) no-repeat right center;
+
+}
+
+.submit {
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: #514141;
+    border: 1px #fff solid;
+    border-radius: 5px;
+}
+.sidebar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #57565d;
+}
+.sidebar ul li a:hover 
+{
+    color: blue;
+    font-size: 22px;
+    font-weight: bold;
+}
+#menu {
+    height: 50px;
+    background-color: #0080ff;
+    padding: 10px 0;
+}
+
+#menu a {
+    padding: 0px 75px;
+    height: 20px;
+    text-decoration: none;
+    color: rgb(218, 189, 152);
+    line-height: 20px;
+    text-transform: capitalize;
+    border-right: 1px solid antiquewhite;
+    font-size: 18px;
+}
+
+#menu a:last-child {
+    border-right: none;
+}
+
+#menu a.log {
+    color: #ec3535;
+}
+
+#menu a:hover,
+#menu a.active {
+    font-size: 19px;
+    color: #ec3535;
+    font-weight: bold;
+}
+
+#intro {
+    background-color: #5a96d2;
+    padding: 30px;
+    margin: 15px 0px;
+}
+
+#intro h3 {
+    font-size: 50px;
+    color: black;
+}
+
+#intro p {
+    font-size: 25px;
+    text-align: justify;
+    color: #57565d;
+}
+
+.sidebar {
+    height: 500px;
+    width: 600px;
+    border: 2px solid #0080ff;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.sidebar ul {
+    padding: 30px;
+}
+
+#leftsb ul li {
+    padding: 5px 0px 5px 10px;
+    list-style-image: url(../images/checkbox.png);
+}
+
+#rightsb ul li {
+    padding: 20px 0px 15px 30px;
+    list-style-image: url(../images/background.png);
+}
+
+#leftsb {
+    float: left;
+}
+
+#rightsb {
+    float: right;
+}
+#footer
+{
+    height:50px;
+    background-color: #0080ff;
+    padding:10px 30px;
+    margin: top 15px;
+}
+#footer p{
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+}
+
