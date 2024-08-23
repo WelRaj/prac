@@ -1,2 +1,7 @@
 #include<iostream>
-using 
+using namespace std;
+ int main(){     
+      cout<<" HELLO RAJ "<<endl;
+
+ }
+ 
